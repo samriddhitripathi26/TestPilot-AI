@@ -1,0 +1,27 @@
+{
+  "name": "testpilot",
+  "version": "1.0.0",
+  "description": "TestPilot - AI-Powered Unit Test Generator for Developers",
+  "main": "server/src/server.js",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "unit-tests",
+    "ai",
+    "gemini",
+    "developer-tools",
+    "jest",
+    "pytest",
+    "junit"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
