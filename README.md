@@ -1,9 +1,6 @@
 # TestPilot ✈️ – AI-Powered Unit Test Generator for Developers
 
-> **TestPilot** is a developer productivity platform that ingests code functions and automatically synthesizes a complete, production-grade unit test suite—including happy path, edge cases, boundary conditions, and error scenarios—so engineering teams can ship reliable software faster with zero boilerplate.
-
-![TestPilot Application Overview](C:\Users\anish\.gemini\antigravity-ide\brain\7a2e9f1d-2bac-4672-a128-e57ff9848dcd\final_application_state_1790017934818.png)
-
+**TestPilot** is a developer productivity platform that ingests code functions and automatically synthesizes a complete, production-grade unit test suite—including happy path, edge cases, boundary conditions, and error scenarios—so engineering teams can ship reliable software faster with zero boilerplate.
 ---
 
 ## 🌟 Core Features
