@@ -129,8 +129,3 @@ GEMINI_API_KEY=
 - **Strict Structured JSON Schema**: Eliminated AI markdown formatting inconsistencies by enforcing Gemini's `responseMimeType: 'application/json'` paired with an exhaustive system prompt defining exact test taxonomy, boundary conditions, and severity ratings.
 - **Defensive Hallucination Guard**: Built an AST verification pipeline in `server/src/services/codeValidator.js` that checks for declared function names, ensures assertions are present, and validates syntax before persisting or rendering.
 - **Cost & Latency Optimization**: Defaulted to `gemini-1.5-flash` for sub-second generation latency, reserving `gemini-1.5-pro` for complex multi-class enterprise architectures.
-
----
-
-## 📄 License
-MIT © 2026 TestPilot Team
